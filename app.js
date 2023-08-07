@@ -9,6 +9,8 @@ const app = express();
 
 app.set('view engine', 'ejs');
 
+mongoose.connect("");
+
 app.use(bodyParser.urlencoded({
   extended: true
 }));
